@@ -18,6 +18,10 @@ namespace ProDev.Controllers
             return View();
         }
 
+        public IActionResult Content()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
